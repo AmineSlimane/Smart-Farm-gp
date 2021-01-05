@@ -1,0 +1,3 @@
+fonctions_gp_p2.o: fonctions_gp_p2.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

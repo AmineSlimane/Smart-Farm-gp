@@ -1,0 +1,60 @@
+    PangoFontDescription *desc;
+    desc=pango_font_description_new();
+    pango_font_description_set_family(desc,"montserrat");
+    pango_font_description_set_style (desc, PANGO_STYLE_ITALIC);
+    pango_font_description_set_weight (desc,PANGO_WEIGHT_SEMIBOLD);
+    PangoFontDescription *fontDesc =pango_font_description_from_string( "monospace 30" );
+    GdkColor color1;
+
+    gtk_widget_modify_font(entry_id_gp,fontDesc);
+    gtk_widget_modify_font(entry_quantite_gp,fontDesc);
+    gtk_widget_modify_font(entry_saison_gp,fontDesc);
+    gtk_widget_modify_font(spinbutton_mois_gp,fontDesc);
+    gtk_widget_modify_font(comboboxentry_variete_gp,fontDesc);
+    gtk_widget_modify_font(comboboxentry_nom_gp,fontDesc);
+
+    //g_object_set(comboboxentry_nom_gp, "height", 30, "width", 200, "font", "Arial 20", NULL);
+    g_object_set(comboboxentry_nom_gp, "font", "Arial 20", NULL);
+
+
+    gdk_color_parse ("blue", &color1);
+    gtk_widget_modify_bg(comboboxentry_nom_gp, GTK_STATE_NORMAL, &color1);
+
+
+
+
+
+
+    PangoFontDescription *fontDesc =pango_font_description_from_string( "monospace 25" );
+    GdkColor color1;
+    gdk_color_parse ("#0077b6", &color1);
+    gdk_color_parse ("#0077b6", &color1);
+
+    gtk_widget_modify_font(entry_id_gp,fontDesc);
+    gtk_widget_modify_font(entry_quantite_gp,fontDesc);
+    gtk_widget_modify_font(entry_saison_gp,fontDesc);
+    gtk_widget_modify_font(entry_superficie_gp,fontDesc);
+    gtk_widget_modify_font(spinbutton_jour_gp,fontDesc);
+    gtk_widget_modify_font(spinbutton_mois_gp,fontDesc);
+    gtk_widget_modify_font(spinbutton_annee_gp,fontDesc);
+    gtk_widget_modify_font(comboboxentry_variete_gp,fontDesc);
+    gtk_widget_modify_font(comboboxentry_nom_gp,fontDesc);
+
+    gtk_combo_box_set_focus_on_click(GTK_COMBO_BOX(comboboxentry_variete_gp),TRUE);
+
+    //comboboxentry_variete_gp->style->white;
+
+    gtk_widget_modify_font(spinbutton_mois_gp,fontDesc);
+    gtk_widget_modify_font(spinbutton_annee_gp,fontDesc);
+    gtk_widget_modify_font(comboboxentry_variete_gp,fontDesc);
+    gtk_widget_modify_font(comboboxentry_nom_gp,fontDesc);
+
+    gtk_widget_modify_bg(entry_id_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(comboboxentry_variete_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(comboboxentry_nom_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(entry_quantite_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(entry_saison_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(entry_superficie_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(spinbutton_jour_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(spinbutton_mois_gp, GTK_STATE_SELECTED, &color1);
+    gtk_widget_modify_bg(spinbutton_annee_gp, GTK_STATE_SELECTED, &color1);

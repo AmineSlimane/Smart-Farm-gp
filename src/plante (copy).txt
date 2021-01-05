@@ -1,0 +1,15 @@
+1 Légumes_graines Aubergine 20 Hiver 400 2-2-2021 
+3 Légumes_graines Courge 40 Hiver 300 3-4-2020 
+4 Légumes_graines Féve 20 Automne 40 3-1-2025 
+2 Fruits_à_pépin Pomme 20 Été 200 3-1-2025 
+6 Légumes_graines Pois 12 Automne 350 3-8-2022 
+8 Légumes_graines Tomate 14 Automne 400 3-6-2022 
+9 Légumes_graines Céréales 15 Automne 75 3-1-2025 
+10 Légumes_graines Aubergine 17 Hiver 45 3-4-2023 
+12 Légumes_à_bulbe Le_poireau 18 Été 30 3-1-2025 
+13 Légumes_à_bulbe Le_poireau 100 Hiver 770 3-4-2023 
+14 Légumes_feuilles Laitue 15 Été 450 5-10-2022 
+30 Légumes_feuilles Pomme 25 Hiver 250 6-3-2026 
+16 Légumes_tubercules Pomme_de_terre 30 Hiver 120 2-2-2021 
+17 Fruits_à_noyau Olive 60 Printemps 120 3-8-2022 
+19 Agrumes Citron 30 Printemps 89 3-8-2022 
